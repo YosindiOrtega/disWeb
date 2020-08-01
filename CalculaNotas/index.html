@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calcule sus notas!</title>
+	<link rel="stylesheet" type="text/css" href="./css/Style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div>
+		<input type="text" name="" id="Nombre" placeholder="Digite su Nombre completo" required="">
+		<input type="number" name="" id="Calificacion1" placeholder="Calificación 1" required="">
+		<input type="number" name="" id="Calificacion2" placeholder="Calificación 2" required="">
+		<input type="number" name="" id="Calificacion3" placeholder="Calificación 3" required="">
+
+		<button onclick="Agregar()" id="Boton">Ingresar Estudiante</button>
+
+	</div>
+	<div>
+		<table id="Tablita">
+			<thead>
+				<tr>
+					<th>Estudiante </th>
+					<th>Calificación1 </th>
+					<th>Calificación2 </th>
+					<th>Calificación3 </th>
+					<th>Calificación Final</th>
+					<th>  Estado</th>
+				</tr>				
+			</thead>
+			<tbody>
+				
+			</tbody>
+		</table>
+		<label id="LabelAprobados">Estudiantes aprobados: 0</label>
+		<label id="LabelReprobados">Estudiantes reprobados: 0</label>
+		<label id="LabelTotal">Total de estudiantes: 0</label>
+	</div>
+	<script type="text/javascript" src= "./js/logica.js"></script>
+</body>
+</html>
